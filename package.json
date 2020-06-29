@@ -1,18 +1,18 @@
 {
-    "name": "tplink-wan-ip",
-    "version": "1.0.0",
-    "description": "fetch wan ip from tplink status screen",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "bin": {
-        "tplink-fetch-ip": "./cli.js"
-    },
-    "author": "Tal Vintrob",
-    "license": "MIT",
-    "dependencies": {
-        "puppeteer": "^4.0.1",
-        "yargs": "^15.3.1"
-    }
+  "name": "tplink-wan-ip",
+  "version": "1.0.1",
+  "description": "fetch wan ip from tplink status screen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "tplink-fetch-ip": "./cli.js"
+  },
+  "author": "Tal Vintrob",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^4.0.1",
+    "yargs": "^15.3.1"
+  }
 }
